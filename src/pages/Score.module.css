@@ -1,0 +1,31 @@
+.score {
+  font-family: monospace;
+  color: rgb(157, 46, 221);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  height: 100%;
+  text-align: center;
+  background-color: transparent;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.actions {
+  display: flex;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: transparent;
+  color: antiquewhite;
+  text-transform: uppercase;
+  margin: auto;
+  padding: 5px 10px 10px;
+}
+
+.actions button:hover {
+  background-color: rgb(157, 46, 221);
+}

@@ -1,0 +1,99 @@
+@keyframes h1 {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.h1 {
+  font-family: monospace;
+  color: rgb(157, 46, 221);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  height: 100%;
+  text-align: center;
+  background-color: transparent;
+  padding: 20px;
+  animation: h1 1s ease-in 1s 1 normal both;
+}
+
+.header {
+  font-family: monospace;
+  color: rgb(157, 46, 221);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.button {
+  color: rgb(157, 46, 221);
+  background-color: transparent;
+  font: inherit;
+  margin: auto;
+  cursor: pointer;
+  padding: 0.7rem;
+  min-width: 200px;
+  border-radius: 1px;
+  border: bisque 1inch;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  color: antiquewhite;
+}
+
+.box {
+  background-color: transparent;
+  padding: 5%;
+  box-shadow: 0 0 10px 0 bisque;
+  min-height: 100px;
+  max-height: 100px;
+  min-width: 500px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.optionbox {
+  margin: 30px 0;
+}
+
+.optionColumn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+}
+
+.options {
+  color: rgb(157, 46, 221);
+  background-color: transparent;
+  font: inherit;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 1px;
+  border: bisque 1inch;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+@media (max-width: 400px) {
+  .optionbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

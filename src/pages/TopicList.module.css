@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.div {
+  padding: 25px;
+  text-align: center;
+  color: rgb(157, 46, 221);
+  animation: slideInLeft 1s ease-in 1s 1 normal both;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.slideInLeft {
+  font-family: monospace;
+  height: 100%;
+  padding: 20px;
+}
+
+.slideInLeftH2 {
+  font-family: monospace;
+  height: 100%;
+  padding: 20px;
+}
+
+.li {
+  cursor: pointer;
+  list-style: none;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.link {
+  color: rgb(157, 46, 221);
+  text-decoration: solid;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.ul {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 0px;
+  align-items: center;
+  gap: 80px;
+}

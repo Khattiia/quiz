@@ -1,0 +1,24 @@
+.header {
+  font-family: monospace;
+  color: rgb(157, 46, 221);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  height: 100%;
+  text-align: center;
+  background-color: transparent;
+  padding: 20px;
+}
+
+.text {
+  font-family: monospace;
+  color: rgb(157, 46, 221);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  height: 100%;
+  font-size: 20px;
+  text-align: center;
+  background-color: transparent;
+  padding: 20px;
+}
